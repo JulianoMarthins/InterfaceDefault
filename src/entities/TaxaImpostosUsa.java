@@ -2,7 +2,6 @@ package entities;
 
 import utilitarios.ServicoImposto;
 
-import java.util.InvalidPropertiesFormatException;
 
 public class TaxaImpostosUsa implements ServicoImposto {
     private Double taxa;
