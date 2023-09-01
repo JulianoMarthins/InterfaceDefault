@@ -4,13 +4,13 @@ import utilitarios.ServicoImposto;
 
 import java.util.InvalidPropertiesFormatException;
 
-public class TaxaImpostosBrasil implements ServicoImposto {
+public class TaxaImpostosUsa implements ServicoImposto {
     private Double taxa;
 
-    public TaxaImpostosBrasil(double taxa) {
+
+    public TaxaImpostosUsa(double taxa) {
         this.taxa = taxa;
     }
-
 
     @Override
     public double getTaxa() {
@@ -19,3 +19,6 @@ public class TaxaImpostosBrasil implements ServicoImposto {
 
 
 }
+
+
+
